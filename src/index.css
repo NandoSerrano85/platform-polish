@@ -22,62 +22,62 @@
 
 @layer base {
   :root {
-    /* MockDrop: The Digital Atelier — Dark Mode First */
+    /* MockDrop: The Digital Atelier — Light Mode ("Stacked Paper") */
     --font-editorial: "Plus Jakarta Sans", sans-serif;
     --font-utility: "Manrope", sans-serif;
 
-    /* Surface palette — warm charcoals */
-    --background: 150 7% 7%;         /* #121412 */
-    --foreground: 45 20% 90%;        /* warm light text */
+    /* Surface palette — warm creams/papers */
+    --background: 40 33% 97%;         /* #FAF9F6 */
+    --foreground: 150 7% 10%;         /* #1A1C1A */
 
-    --surface-low: 150 6% 10%;       /* #1A1C1A */
-    --surface-default: 150 5% 12%;   /* #1E201E */
-    --surface-high: 150 4% 16%;      /* #282A28 */
-    --surface-highest: 150 3% 20%;   /* #333533 */
+    --surface-low: 40 18% 95%;        /* #F4F3F1 */
+    --surface-default: 40 12% 93%;    /* #EFEEEB */
+    --surface-high: 40 10% 91%;       /* #E9E8E5 */
+    --surface-highest: 40 8% 88%;     /* #E3E2E0 */
 
-    --card: 150 5% 12%;
-    --card-foreground: 45 20% 90%;
+    --card: 40 18% 95%;
+    --card-foreground: 150 7% 10%;
 
-    --popover: 150 4% 16%;
-    --popover-foreground: 45 20% 90%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 7% 10%;
 
-    /* Primary — The Amber/Golden-Yellow */
-    --primary: 38 100% 82%;          /* #FFDCA1 */
-    --primary-foreground: 36 100% 13%; /* #412D00 dark text on amber */
-    --primary-container: 42 100% 49%; /* #FFB800 */
-    --primary-dim: 36 100% 69%;      /* #FFB95F soft glow */
+    /* Primary — The Amber */
+    --primary: 30 100% 26%;           /* #855300 */
+    --primary-foreground: 0 0% 100%;  /* white on amber */
+    --primary-container: 42 96% 53%;  /* #F59E0B */
+    --primary-dim: 36 100% 69%;       /* #FFB95F */
 
     /* Secondary — The Coral-Peach */
-    --secondary: 15 100% 81%;        /* #FFB59C */
-    --secondary-foreground: 16 100% 14%; /* dark on coral */
-    --secondary-container: 16 100% 28%; /* #8E2C01 */
+    --secondary: 12 82% 38%;          /* #AC3416 */
+    --secondary-foreground: 0 0% 100%;
+    --secondary-container: 12 98% 65%; /* #FD6F4C */
 
-    --muted: 150 4% 16%;
-    --muted-foreground: 30 10% 55%;
+    --muted: 40 10% 91%;
+    --muted-foreground: 27 23% 27%;   /* #534434 */
 
-    --accent: 150 4% 16%;
-    --accent-foreground: 38 100% 82%;
+    --accent: 40 10% 91%;
+    --accent-foreground: 30 100% 26%;
 
-    --destructive: 0 72% 51%;
+    --destructive: 12 82% 38%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 150 4% 16%;
-    --input: 150 4% 16%;
-    --ring: 38 100% 82%;
+    --border: 40 8% 88%;
+    --input: 40 8% 88%;
+    --ring: 30 100% 26%;
 
     --radius: 0.375rem;
 
     /* Ghost border */
-    --ghost-border: 30 30% 45%;
+    --ghost-border: 27 30% 46%;       /* #867461 */
 
-    --sidebar-background: 150 6% 10%;
-    --sidebar-foreground: 45 20% 90%;
-    --sidebar-primary: 38 100% 82%;
-    --sidebar-primary-foreground: 36 100% 13%;
-    --sidebar-accent: 150 4% 16%;
-    --sidebar-accent-foreground: 38 100% 82%;
-    --sidebar-border: 150 4% 16%;
-    --sidebar-ring: 38 100% 82%;
+    --sidebar-background: 40 18% 95%;
+    --sidebar-foreground: 150 7% 10%;
+    --sidebar-primary: 30 100% 26%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 40 10% 91%;
+    --sidebar-accent-foreground: 30 100% 26%;
+    --sidebar-border: 40 8% 88%;
+    --sidebar-ring: 30 100% 26%;
   }
 }
 
